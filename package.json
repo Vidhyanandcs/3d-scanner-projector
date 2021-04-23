@@ -1,0 +1,22 @@
+{
+  "name": "3d-scanner-projector",
+  "version": "1.0.0",
+  "description": "A projector to project patterns to the object",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vidhyanandcs/3d-scanner-projector.git"
+  },
+  "author": "vidhyanand",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vidhyanandcs/3d-scanner-projector/issues"
+  },
+  "homepage": "https://github.com/Vidhyanandcs/3d-scanner-projector#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
