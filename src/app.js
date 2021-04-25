@@ -18,7 +18,7 @@ app.get('/projection', function (req, res) {
                 console.log('exec error: ' + error);
             }
         });
-        
+        //After opening the pattern the childprocess will sleep for 5 sec and then kill gpicview
         const data1 = cp.execSync('sudo gpicview  /home/pi/3d-scanner-projector/public/img/pattern.png & sleep 5; pkill gpicview', function (error, stdout, stderr) {
             console.log('stdout: ' + stdout);
             console.log('stderr: ' + stderr);
